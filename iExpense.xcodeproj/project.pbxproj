@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF6510AB2D6C78010045F9BB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6510AA2D6C78010045F9BB /* AddView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BF4F23C82D6A367200903068 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		BF4F23B72D6A367100903068 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F23C72D6A367200903068 /* iExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F23D12D6A367200903068 /* iExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6510AA2D6C78010045F9BB /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		BF4F23AE2D6A367100903068 = {
 			isa = PBXGroup;
 			children = (
+				BF6510AA2D6C78010045F9BB /* AddView.swift */,
 				BF4F23B92D6A367100903068 /* iExpense */,
 				BF4F23CA2D6A367200903068 /* iExpenseTests */,
 				BF4F23D42D6A367200903068 /* iExpenseUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6510AB2D6C78010045F9BB /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
